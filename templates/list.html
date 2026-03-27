@@ -1,0 +1,10 @@
+<h2>Ro'yxatdan o'tganlar</h2>
+
+{% for person in persons %}
+<p>
+{{ person.first_name }}
+{{ person.last_name }} |
+{{ person.phone }} |
+{{ person.email }}
+</p>
+{% endfor %}
